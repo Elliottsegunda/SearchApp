@@ -1,0 +1,92 @@
+*{
+    
+    padding: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
+}
+@font-face {
+    font-family: Barlow;
+    src: url(../fonts/Barlow/Barlow-Light.ttf);
+}
+header{
+    width: 100%;
+    /*background-color:#4A235A;*/
+    background: linear-gradient(45deg, #4A235A, #1556CC);
+    padding:40px 20px ;
+    border-bottom: 4px solid purple;
+}
+nav{
+    background-color: #9B59B6 ;
+    margin: 12px 2px;
+    padding: 5px;
+    border-radius: 5px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    margin: 4px;
+    padding:4px;
+}
+a:hover{
+    text-decoration:underline;
+    color: #1e2029;
+    font-weight: 800;
+}
+ header input{
+    width: 70%;
+    height: 33px;
+    border-radius: 6px;
+    border: none;
+    margin: 8px 0;
+    padding-left: 4px;
+}
+header input:focus{
+    outline: none;
+}
+header button{
+    background-color: #4A235A;
+    color: #fff;
+    width: 29%;
+    height: 33px;
+    border-radius: 4px;
+    border: none;
+}
+header button:hover{
+    background-color: #9B59B6;
+    color: #fff;
+}
+section{
+    padding: 12px 20px;
+    background:linear-gradient(90deg, #9B59B6, #f3f3f3) ;
+}
+section .container{
+    /*background-color: #f3f3f3;*/
+    background:linear-gradient(90deg, #f3f3f3,#9B59B6) ;
+    padding: 15px 25px;
+    border-radius: 6px;
+    display: flex;
+}
+h3{
+    text-align: center;
+    color: #1e2029;
+    font-weight: bold;
+}
+.container .card1, .card2{
+    margin: 0 2%;
+    width: 50%;
+}
+.card-body{
+    background-color: #4A235A;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+.card-body ul{
+    list-style: none;
+    list-style-position: inside;
+}
+.card-body li a{
+    color: #fff;
+}
