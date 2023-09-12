@@ -63,8 +63,8 @@ section{
     background:linear-gradient(90deg, #9B59B6, #f3f3f3) ;
 }
 section .container{
-    /*background-color: #f3f3f3;*/
-    background:linear-gradient(90deg, #f3f3f3,#9B59B6) ;
+   /* background-color: #f3f3f3;
+    background:linear-gradient(90deg, #f3f3f3,#9B59B6) ;*/
     padding: 15px 25px;
     border-radius: 6px;
     display: flex;
@@ -89,4 +89,11 @@ h3{
 }
 .card-body li a{
     color: #fff;
+}
+section.destaque .container{
+    display: block;
+}
+section.destaque .card{
+    display: inline;
+    width: 32%;
 }
