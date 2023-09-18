@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+header{
+    background-color: #573E94;
+}
+.linha1{
+    display: flex;
+    align-content: space-around;
+}
