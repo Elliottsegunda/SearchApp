@@ -9,7 +9,7 @@
 Maior parte das plataformas de conteúdo didatico armazenam informações do mundo todo e o mundo está em constante evoluição, angoloa não é um pais completamente desenvolvido, tanto que o nosso pais enfrenta problemas que maior parte dos paises do mundo já deixou pra trás a décadas, por isso surgiu a ideia de uma plataforma com foco em angola e na sua condição.
 ---
  ### Pendentes:
- - [ ] Terminar o Front-End usando tecnologias simples(HTML5, CSS3, JAVA SCRIPT)
+ - [ ] Terminar o Front-End usando tecnologias simples(HTML5, CSS3, JAVASCRIPT)
  ---
  - [ ] Hospedar inicialmente no GitHub pages
  ---
