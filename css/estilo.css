@@ -12,6 +12,14 @@ header{
     background-color: #573E94;
 }
 .linha1{
-    display: flex;
-    align-content: space-around;
+    display: inline;
+}
+.linha1 h2{
+    color: #fff;
+}
+nav.menu1{
+   float: right;
+}
+.clean{
+    clear: both;
 }
