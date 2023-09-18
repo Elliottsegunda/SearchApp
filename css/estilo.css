@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: Barlow ;
+    src: url(../fonts/Barlow/Barlow-Regular.ttf);
+}
 .container{
     width: 100%;
     max-width: 1400px;
@@ -12,13 +16,23 @@ header{
     background-color: #573E94;
 }
 .linha1{
-    display: inline;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .linha1 h2{
     color: #fff;
+    font-size: 24px;
+
 }
 nav.menu1{
    float: right;
+}
+nav.menu1 a{
+    padding: 0 8px;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
 }
 .clean{
     clear: both;
