@@ -60,7 +60,7 @@ nav.menu1 a{
 }
 input[type=text]{
     width: 87%;
-    padding: 12px 4px;
+    padding: 8px 4px;
     height: 45px;
     margin: 4px 0;
     border-radius: 4px;
@@ -71,4 +71,9 @@ button{
     width: 12%;
     height: 45px;
     text-align: center;
+    border-radius:4px;
+    border: none;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 400;
 }
