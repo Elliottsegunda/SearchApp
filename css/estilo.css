@@ -66,3 +66,9 @@ input[type=text]{
     border-radius: 4px;
     border: none;
 }
+button{
+    background-color: #290F65;
+    width: 10%;
+    height: 45px;
+    text-align: center;
+}
