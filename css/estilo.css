@@ -15,7 +15,6 @@
 /*header*/
 header{
     background-color: #573E94;
-    padding: 3px 4px;
 }
 .linha1{
     padding: 8px 0;
@@ -45,9 +44,9 @@ nav.menu1 a{
     background-color: #fff;
 }
 .areadestaques{
-    margin-top: 6px;
+    margin: 4px 0px;
     background-color:#290F65;
-    padding: 9px 18px;
+    padding: 9px 14px;
     display: flex;
     align-items: center;
     justify-content: center;
