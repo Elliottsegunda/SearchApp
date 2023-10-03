@@ -100,6 +100,11 @@ section article h1{
     text-align: center;
     padding: 4px 6px;
 }
+section article p{
+    color: #ffffff;
+    padding: 8px;
+    text-align: justify;
+}
 section aside{
     display: flex;
     flex-direction: column;
@@ -114,4 +119,10 @@ section aside .box1, .box2{
     background-color: #42297F;
     text-align: center;
     padding: 4px 6px;
+}
+
+.box1 p, .box2 p{
+    color: #fff;
+    text-align: justify;
+    padding: 8px;
 }
