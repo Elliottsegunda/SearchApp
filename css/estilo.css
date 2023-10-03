@@ -48,7 +48,7 @@ nav.menu1 a{
     background-color: #fff;
 }
 .areadestaques{
-    margin: 6px 0px;
+    margin: 6px 0 12px 0;
     background-color:#290F65;
     padding: 12px 14px;
     display: flex;
@@ -60,13 +60,14 @@ nav.menu1 a{
     text-decoration: none;
     color: #fff;
     font-size: 16px;
-    font-weight: normal
+    font-weight: normal;
+    padding: 3px;
 }
 input[type=text]{
     width: 87.5%;
     padding: 8px 4px;
     height: 40px;
-    margin: 4px 0;
+    margin: 12px 0 2px 0;
     border-radius: 4px;
     border: none;
 }
