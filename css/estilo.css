@@ -94,6 +94,12 @@ section article{
     background-color: #0E123E;
     margin-left: 3px;
 }
+section article h1{
+    color: #fff;
+    background-color: #42297F;
+    text-align: center;
+    padding: 4px 6px;
+}
 section aside{
     display: flex;
     flex-direction: column;
@@ -103,9 +109,9 @@ section aside{
 section aside .box1, .box2{
     background-color: #0E123E;
 }
- .box1, .box2 h1{
+ .box1 h1, .box2 h1{
     color: #fff;
-    background-color:#42297F;
+    background-color: #42297F;
     text-align: center;
-
+    padding: 4px 6px;
 }
