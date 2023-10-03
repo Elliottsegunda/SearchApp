@@ -102,5 +102,10 @@ section aside{
 }
 section aside .box1, .box2{
     background-color: #0E123E;
+}
+ .box1, .box2 h1{
     color: #fff;
+    background-color:#42297F;
+    text-align: center;
+
 }
