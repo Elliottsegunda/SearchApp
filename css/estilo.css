@@ -15,12 +15,16 @@
 /*header*/
 header{
     background-color: #573E94;
+    padding-bottom: 20px;
 }
 .linha1{
     padding: 8px 0;
     display:flex;
     align-items: center;
     justify-content: space-between;
+}
+.linha1 a:hover{
+    color: #290F65;
 }
 .linha1 h2{
     color: #fff;
@@ -44,9 +48,9 @@ nav.menu1 a{
     background-color: #fff;
 }
 .areadestaques{
-    margin: 4px 0px;
+    margin: 6px 0 12px 0;
     background-color:#290F65;
-    padding: 9px 14px;
+    padding: 12px 14px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,25 +59,53 @@ nav.menu1 a{
 .areadestaques a{
     text-decoration: none;
     color: #fff;
-    font-size: 14px;
-    font-weight: normal
+    font-size: 16px;
+    font-weight: normal;
+    padding: 3px;
 }
 input[type=text]{
     width: 87.5%;
     padding: 8px 4px;
-    height: 35px;
-    margin: 4px 0;
+    height: 40px;
+    margin: 12px 0 2px 0;
     border-radius: 4px;
     border: none;
 }
 button{
     background-color: #290F65;
     width: 12%;
-    height: 35px;
+    height: 40px;
     text-align: center;
     border-radius:4px;
     border: none;
     color: #fff;
     font-size: 19px;
     font-weight: 400;
+}
+/*------Corpo------*/
+section{
+    display: flex;
+    padding: 2%;
+    background-color: #D9D9D9;
+    justify-content: space-between;
+}
+section article{
+    width: 70%;
+    background-color: #0E123E;
+    margin-left: 3px;
+}
+section aside{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 28%;
+}
+section aside .box1, .box2{
+    background-color: #0E123E;
+}
+ .box1, .box2 h1{
+    color: #fff;
+    background-color:#42297F;
+    text-align: center;
+
 }
